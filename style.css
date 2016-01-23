@@ -1,0 +1,118 @@
+
+
+body
+{
+    background-image: url('images/background.jpg');
+    height: 100%;
+}
+
+label
+{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.vertical-center {
+  min-height: calc(100% - 15px); /*-15px from the Top Color Bar*/
+  min-height: calc(100vh - 15px); /*-15px from the Top Color. Otherwise, scroll bar will appear Bar*/
+      
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; 
+    -webkit-box-align : center;
+  -webkit-align-items : center;
+       -moz-box-align : center;
+       -ms-flex-align : center;
+          align-items : center;
+  width: 100%;
+         -webkit-box-pack : center;
+            -moz-box-pack : center;
+            -ms-flex-pack : center;
+  -webkit-justify-content : center;
+          justify-content : center;
+}
+
+
+.btn
+{
+    background-color: #F7CF46;
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 130px;
+}
+
+.form-control
+{
+    border-radius: 0px;
+    border: 0px;
+    background-color: #efefef;
+    color: #606060;
+    font-style: italic;
+    font-size: 14px;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
+    margin-bottom: 16px;
+    margin-top: 15px;
+}
+
+h4
+{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h6
+{
+    font-size: 11px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container-narrow
+{
+    max-width: 350px;
+}
+
+.container-narrow .row
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.color-bar
+{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.color-bar [class*="col-"]
+{
+    height: 15px;
+}
+
+.color-bar .cyan
+{
+    background-color: #00BFE2;
+}
+
+.color-bar .yellow
+{
+    background-color: #F2CB30;
+}
+
+.color-bar .orange
+{
+    background-color: #E67250;
+}
+
+.color-bar .green
+{
+    background-color: #20A29A;
+}
+
