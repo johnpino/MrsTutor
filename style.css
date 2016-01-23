@@ -34,7 +34,6 @@ label
           justify-content : center;
 }
 
-
 .btn
 {
     background-color: #F7CF46;
@@ -58,6 +57,14 @@ label
     margin-top: 15px;
 }
 
+h3
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 h4
 {
     font-size: 19px;
@@ -73,12 +80,17 @@ h6
     margin-bottom: 25px;
 }
 
+.container
+{
+    max-width: 500px;
+}
+
 .container-narrow
 {
     max-width: 350px;
 }
 
-.container-narrow .row
+.row
 {
     margin-left: 0px;
     margin-right: 0px;
@@ -86,9 +98,10 @@ h6
 
 .color-bar
 {
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
     width: 100%;
+    max-width: 100%;
 }
 
 .color-bar [class*="col-"]
