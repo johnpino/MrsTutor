@@ -34,6 +34,11 @@ label
           justify-content : center;
 }
 
+.logo
+{
+    margin-bottom: 50px;
+}
+
 .btn
 {
     background-color: #F7CF46;
@@ -60,9 +65,10 @@ label
 h3
 {
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 900;
     margin-top: 25px;
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 h4
@@ -127,5 +133,61 @@ h6
 .color-bar .green
 {
     background-color: #20A29A;
+}
+
+.rating-selector input
+{
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.thumbsup
+{
+    background-image: url('images/thumbsup.png');
+}
+
+.thumbsdown
+{
+    background-image: url('images/thumbsdown.png');
+}
+
+.rating-selector input:active +.image-rating
+{
+    opacity: .9;
+}
+
+.rating-selector input:checked +.image-rating
+{
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+}
+
+.image-rating
+{
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 79px;
+    height: 86px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.5);
+    -moz-filter: brightness(1.8) grayscale(1) opacity(.5);
+    filter: brightness(1.8) grayscale(1) opacity(.5);
+    margin: 20px 30px;
+}
+
+
+.image-rating:hover
+{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+    filter: brightness(1.2) grayscale(.5) opacity(.9);
 }
 
