@@ -12,6 +12,11 @@ label
     font-weight: normal;
 }
 
+strong
+{
+    font-size: 18px;
+}
+
 .vertical-center {
   min-height: calc(100% - 15px); /*-15px from the Top Color Bar*/
   min-height: calc(100vh - 15px); /*-15px from the Top Color. Otherwise, scroll bar will appear Bar*/
@@ -183,11 +188,23 @@ h6
     margin: 20px 30px;
 }
 
-
 .image-rating:hover
 {
     -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
     -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
     filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+a
+{
+    color: #606060;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.bottom-space
+{
+    padding-bottom: 25px;
 }
 
