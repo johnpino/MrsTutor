@@ -93,7 +93,7 @@ h6
 
 .container
 {
-    max-width: 500px;
+    max-width: 575px;
 }
 
 .container-narrow
@@ -206,5 +206,22 @@ a
 .bottom-space
 {
     padding-bottom: 25px;
+}
+
+.column-input
+{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.column-input input, .column-input textarea
+{
+    margin-top: 0px;
+}
+
+.explanatory-label
+{
+    font-size: 11px;
+    margin-top: 5px;
 }
 
