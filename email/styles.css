@@ -1,0 +1,137 @@
+/* Basics */
+body {
+	Margin: 0;
+	padding: 0;
+	min-width: 100%;
+	background-color: #ffffff;
+}
+table {
+	border-spacing: 0;
+	font-family: sans-serif;
+	color: #000000;
+}
+td {
+	padding: 0;
+}
+img {
+	border: 0;
+}
+img.rating {
+	padding: 10px 40px;
+}
+img.icons {
+	padding: 10px 10px;
+}
+.separator {
+	height: 5px;
+}
+.wrapper {
+	width: 100%;
+	table-layout: fixed;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+.webkit {
+	max-width: 600px;
+}
+.outer {
+	Margin: 0 auto;
+	width: 100%;
+	max-width: 600px;
+}
+.inner {
+}
+.contents {
+	width: 100%;
+}
+p {
+	padding: 7px 0;
+}
+p.report {
+	font-size: 15px;
+	text-align: left;
+}
+p.refer {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+	Margin: 20px;
+}
+a {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.small{
+	color: #606060;
+	font-size: 11px;
+	font-style: italic;
+	text-decoration: underline;
+}
+strong{
+	padding: 0px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.h1 {
+	Margin: 5px 0;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 35px;
+}
+.full-width-image img {
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+}
+
+/* One column layout */
+.one-column .yellow {
+	padding: 7px 0px;
+	text-align: center;
+	background-color: #F2BC11;
+}
+
+.one-column .grey {
+	background-color: #F2F2F2;
+	padding: 7px 40px;
+	text-align: center;
+	line-height: 23px;
+}
+
+.one-column .footer {
+	background-color: #515151;
+	padding: 0px 40px;
+	text-align: center;
+}
+
+.one-column .footer > p > a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 400px) {
+	.two-column .column,
+	.three-column .column {
+		max-width: 100% !important;
+	}
+	.two-column img {
+		max-width: 100% !important;
+	}
+	.three-column img {
+		max-width: 50% !important;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 620px) {
+	.three-column .column {
+		max-width: 33% !important;
+	}
+	.two-column .column {
+		max-width: 50% !important;
+	}
+}
